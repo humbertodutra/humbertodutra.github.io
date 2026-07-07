@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.cb8ca143.css",
-    "main.js": "/static/js/main.ff3249cd.js",
+    "main.js": "/static/js/main.40018b3b.js",
     "static/media/planets-project.png": "/static/media/planets-project.6c40a65310ddcddaeb85.png",
     "static/media/cglfundacoes.png": "/static/media/cglfundacoes.5d0e82417bf053ef34c0.png",
     "static/media/artepoxy.png": "/static/media/artepoxy.b768448432b383069139.png",
@@ -13,9 +13,14 @@
     "static/media/coletivoia.png": "/static/media/coletivoia.77955973744300be5ecb.png",
     "static/media/trybe-tunes.png": "/static/media/trybe-tunes.48c6d60285261f70b296.png",
     "static/media/roag2goldTech.png": "/static/media/roag2goldTech.e3cbb78133ba6e0619b8.png",
+    "static/media/giveback.png": "/static/media/giveback.a6b02329bde071c7adfb.png",
+    "static/media/headstart.png": "/static/media/headstart.7040c1f1c7eeaecfb7bb.png",
     "static/media/mock5.png": "/static/media/mock5.c9b5f54e8517e13fc897.png",
+    "static/media/fundit.png": "/static/media/fundit.10d0518a506c13d3e1af.png",
     "static/media/tryufo-project.png": "/static/media/tryufo-project.72e32510b12ca89ec8e7.png",
     "static/media/trybe-wallet-project.png": "/static/media/trybe-wallet-project.4ab929774d51580f85cf.png",
+    "static/media/bembos.png": "/static/media/bembos.455144309130b2ddd830.png",
+    "static/media/beactive.png": "/static/media/beactive.6b2dcae8f0b5ca15186b.png",
     "static/media/self.png": "/static/media/self.1d1d1d236a8935d570f4.png",
     "static/media/pixel-art-project.png": "/static/media/pixel-art-project.5badfccfe6a6ca8ea29b.png",
     "static/media/trivia-game-2.png": "/static/media/trivia-game-2.1402a12b59ee095a34aa.png",
@@ -49,10 +54,10 @@
     "static/media/js.svg": "/static/media/js.0dd1cf6c80bb500c655a617006c1148a.svg",
     "static/media/heroku.svg": "/static/media/heroku.a22f05f959c8736e5f4e20bcf32c3f27.svg",
     "main.cb8ca143.css.map": "/static/css/main.cb8ca143.css.map",
-    "main.ff3249cd.js.map": "/static/js/main.ff3249cd.js.map"
+    "main.40018b3b.js.map": "/static/js/main.40018b3b.js.map"
   },
   "entrypoints": [
     "static/css/main.cb8ca143.css",
-    "static/js/main.ff3249cd.js"
+    "static/js/main.40018b3b.js"
   ]
 }
