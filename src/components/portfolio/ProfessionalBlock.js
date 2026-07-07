@@ -7,7 +7,7 @@ function ProfessionalBlock(props) {
    const { image, live, source, title, stacks } = props;
    return (
       <Box display={'flex'} flexDirection={'column'} justifyContent={'center'} alignItems={'center'} margin={'30px'}>
-         <Box className='img-box' component={'img'} src={image} alt={'mockup'} />
+         {image && <Box className='img-box' component={'img'} src={image} alt={'mockup'} />}
          <h1 style={{ fontSize: '1.5rem' }}>{title}</h1>
          <Box p={1} marginTop={'20px'}py={'0.1rem'} borderRadius={'1px'} display={'flex'} flexDirection={'row'}>
             {stacks.map((a) => <img src={a} alt={''} style={{width: 40}}/>)}

@@ -20,6 +20,11 @@ import cgl from "../img/cglfundacoes.png"
 import marcam from "../img/marcam.png"
 import artepoxy from "../img/artepoxy.png"
 import blt from "../img/blthides.png"
+import giveback from "../img/giveback.png"
+import headstart from "../img/headstart.png"
+import beactive from "../img/beactive.png"
+import fundit from "../img/fundit.png"
+import bembos from "../img/bembos.png"
 
 import {html, css, js, react, redux, docker, mysql,
     nodejs, sequelize, JWT, heroku, typescript, jest, mocha, api, python, mongoDb, nextjs, wordpress} from '../img/icons/index'
@@ -72,19 +77,12 @@ export const info = {
 
     socials: [
         {
-        
-            link: "https://linkedin.com",
-            icon: "fa fa-download",
-            label: 'download cv',
-            text: 'My Cv: '        
-    },
-        {
             link: "https://github.com/humbertodutra",
             icon: "fa fa-github",
             label: 'github'
         },
         {
-            link: "https://linkedin.com",
+            link: "https://www.linkedin.com/in/humberto-dvslima/",
             icon: "fa fa-linkedin",
             label: 'linkedin'
         }
@@ -95,11 +93,11 @@ export const info = {
 
     ],
   
-    bio: "Hello! I'm Humberto. I'm a full stack developer. I was a lawyer but my passion for technology brought me here, and I believe artificial intelligence will inevitably rule us all one day.",
+    bio: "Hello! I'm Humberto, a Full Stack Developer with 4+ years building and shipping web and mobile applications for international clients. Currently at LexArt Labs, I work across Israel and LATAM with a modern stack: TypeScript, React/React Native, Node.js and Python. My focus is AI engineering — integrating LLMs like the Claude API into production, from RAG pipelines to conversational agents. A law degree and four years in law firms give me real fluency in legal workflows, making me a strong fit for legaltech and any domain where understanding the problem matters as much as writing the code.",
     skills:
         {
-            proficientWith: ['Git', 'Linux', 'React', 'Javascript', 'NodeJs', 'Docker', 'Sequelize', 'MySql', 'JWT', 'TypeScript', 'Html', 'Css', 'Python', 'Heroku', 'MongoDb', ],
-            exposedTo: ['React-native']
+            proficientWith: ['TypeScript', 'React', 'React Native', 'Expo', 'Next.js', 'Node.js', 'Python', 'Claude API', 'RAG', 'PostgreSQL', 'Supabase', 'MongoDB', 'Docker', 'GCP'],
+            exposedTo: []
         }
     ,
     hobbies: [
@@ -124,7 +122,7 @@ export const info = {
             emoji: '⚽'
         },
         {
-            label: 'swin',
+            label: 'swim',
             emoji: '🏊‍♂️'
         },
         {
@@ -133,22 +131,7 @@ export const info = {
         }
 
     ],
-    portfolioPro: [ 
-        {
-            title: "road2gold Crypto Bot",
-            live: "https://www.road2gold.tech/",
-            source: "https://github.com/humbertodutra/planets-project",
-            stack: [react, nextjs, python, mysql],
-            image: road2gold
-        },
-        
-        {
-            title: "Coletivo IA",
-            live: "https://coletivoia.com/",
-            source: "https://github.com/humbertodutra/trybe-project-wallet",
-            image: coletivoIa,
-            stack: [nextjs, react, mysql],
-        },
+    portfolioPro: [
         {
             title: "NuFlow",
             live: "https://market.nuflow.com.br/",
@@ -156,14 +139,6 @@ export const info = {
             image: nuflow,
             stack: [react, mysql, api],
         },
-        {
-            title: "Green River IT",
-            live: "https://www.greenriverit.tech/",
-            source: "https://github.com/humbertodutra/trybe-project-tryunfo",
-            image: greenriver,
-            stack: [nextjs, react],
-        },
-       
         {
             title: "CGL Fundacoes",
             live: "https://cglfundacoes.com.br/",
@@ -191,9 +166,67 @@ export const info = {
             source: "https://github.com/humbertodutra/trybe-pixel-art/",
             image: artepoxy,
             stack: [wordpress],
+        },
+        {
+            title: "road2gold Crypto Bot",
+            live: "https://www.road2gold.tech/",
+            source: "https://github.com/humbertodutra/planets-project",
+            stack: [react, nextjs, python, mysql],
+            image: road2gold
+        },
+        {
+            title: "Coletivo IA",
+            live: "https://coletivoia.com/",
+            source: "https://github.com/humbertodutra/trybe-project-wallet",
+            image: coletivoIa,
+            stack: [nextjs, react, mysql],
+        },
+        {
+            title: "Green River IT",
+            live: "https://www.greenriverit.tech/",
+            source: "https://github.com/humbertodutra/trybe-project-tryunfo",
+            image: greenriver,
+            stack: [nextjs, react],
         }
     ],
-    portfolio: [ 
+    portfolioWorkingOn: [
+        {
+            title: "GiveBack",
+            live: "https://giveback.co.il/",
+            source: "",
+            image: giveback,
+            stack: [react, typescript, nodejs],
+        },
+        {
+            title: "Headstart",
+            live: "https://headstart.co.il/",
+            source: "",
+            image: headstart,
+            stack: [react, typescript, nodejs],
+        },
+        {
+            title: "BeActive",
+            live: "https://beactive.co.il/",
+            source: "",
+            image: beactive,
+            stack: [react, typescript, nodejs],
+        },
+        {
+            title: "Fundit Invest",
+            live: "https://invest.fundit.co.il/",
+            source: "",
+            image: fundit,
+            stack: [react, typescript, nodejs],
+        },
+        {
+            title: "Bembos",
+            live: "https://apps.apple.com/pe/app/bembos/id952866349",
+            source: "",
+            image: bembos,
+            stack: [react, typescript],
+        },
+    ],
+    portfolio: [
         {
             title: "Planets Project",
             live: "https://humbertodutra.github.io/planets-project/",

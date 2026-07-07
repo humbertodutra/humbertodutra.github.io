@@ -29,10 +29,12 @@ export default function About() {
             <ul className={Style.skills}>
                 {info.skills.proficientWith.map((proficiency, index) => <li key={index}>{proficiency}</li>)}
             </ul>
-            <p style={{color: info.baseColor}}> Stack I'm currently studying:</p>
-            <ul className={Style.skills}>
-                {info.skills.exposedTo.map((skill, index) => <li key={index}>{skill}</li>)}
-            </ul>
+            {info.skills.exposedTo.length > 0 && <>
+                <p style={{color: info.baseColor}}> Stack I'm currently studying:</p>
+                <ul className={Style.skills}>
+                    {info.skills.exposedTo.map((skill, index) => <li key={index}>{skill}</li>)}
+                </ul>
+            </>}
         </>;
     }
 
